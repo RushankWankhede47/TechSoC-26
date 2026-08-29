@@ -418,12 +418,13 @@ int main()
 
             generation_counter++;
         }
-
+        bool extinct = false;
         if (checkextinct != generation + 1)
         {
             cout << "Classification : Extinct" << endl;
-            cout << "Extinction step: " << generation - checkextinct << endl;
+            cout << "Extinction step: " << checkextinct << endl;
             cout << "Final Population: " << 0 << endl;
+            extinct = true;
         }
 
         // How would I check if 2x2 matrtix are equal
@@ -456,7 +457,7 @@ int main()
             }
         }
 
-        if (found)
+        if (found && !extinct)
         {
             if (gridnum - matchStart > 1)
             {
@@ -472,10 +473,6 @@ int main()
                 cout << "Period : " << gridnum - matchStart << endl;
                 cout << "Population : " << population[generation] << endl;
             }
-        }
-        else
-        {
-            cout << "Classification: Still evolving (no repeat found within " << generation << " generations)" << endl;
         }
     }
 
@@ -616,15 +613,17 @@ int main()
         }
         else
         {
+            cout << "Bounding Box: 0 x 0"<<endl;
             cout << "Center of Mass : N/A" << endl;
-            cout << "Bounding Box: 0x0"<<endl;
+            
         }
 
         return 0;
     }
 
     else if (feature == "animate"){
-
+        
+        system("cls");
         cout << "Generation: 0"<< "   " << "Population: " << population[0] << endl
              << endl;
 
@@ -716,7 +715,7 @@ int main()
                 }
             }
 
-            cout<<"Generation: "<<generation_counter-1<<"   "<<"Population: "<<population[generation_counter]<<endl<<endl;
+            cout<<"Generation: "<<generation_counter<<"   "<<"Population: "<<population[generation_counter]<<endl<<endl;
 
             for (int i = 0; i < row; i++)
             {
@@ -736,7 +735,10 @@ int main()
             }
 
             Sleep(1000);
-            system("cls");
+            if(generation_counter!=generation){
+                system("cls");
+            }
+            
 
             generation_counter++;
         }

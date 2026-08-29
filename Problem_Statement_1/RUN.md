@@ -1,12 +1,12 @@
 # How to Run Your Submission
 
 ## Honest note from my side:
-I did use AI for RUN.md as I had no idea how to make this
-I used windows.h because threads wasn't working
+I did use AI for RUN.md as I had no idea how to make this.
+I used windows.h because threads wasn't working.
 My exception handling is bad as the program crashes if exception arises so please enter input exactly as it was mentioned in each test case.
-I have used the exact same input format and output format as test cases
+I have used the exact same input format and output format as test cases.
 Do not enter a grid in 'classify' feature which requires over 100 generation to show oscillation as it is its max scan limit.
-The rest below is exactly what you asked for
+The rest below is exactly what you asked for  :)
 
 ## Language
 

@@ -10,7 +10,15 @@ int main()
     getline(cin, feature);
 
     cin >> row >> column;
-    cin >> generation;
+
+    if (feature == "classify")
+    {
+        generation = 100;
+    }
+    else
+    {
+        cin >> generation;
+    }
 
     int population[generation + 1] = {};
 

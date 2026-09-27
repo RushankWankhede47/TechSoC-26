@@ -91,7 +91,7 @@ Mira (Water) - HP: 92/92, Attack: 50, Defense: 45, Speed: 60
 Moves: Water Whip (35), Tide Push (25), Mist Veil (0), Tidal Wave (60)
 
 Kael used Ember Slash!
-Mira took 61 damage!
+Mira took 52 damage!
 
 Mira (Water) - HP: 31/92, Attack: 50, Defense: 45, Speed: 60
 Moves: Water Whip (35), Tide Push (25), Mist Veil (0), Tidal Wave (60)

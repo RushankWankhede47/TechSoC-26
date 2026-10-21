@@ -1,6 +1,21 @@
-The attached cybersecPs.cpp is my solution to the PS3 problem of Techsoc
-I have attempted to do everyhting I could to learn and challenge myself
-RSA enc, RSA dec, b64 operations are all executed smoothly if the input is provided exactly as written in the problem statement
-The last two functions Find_D and RSATOY are my solutions to the bonus questions provided 
-To execute them, write the input as: (Any string doesn't matter) [FIND_D(p,q,e)] or (Any string) [RSATOY]
-You can ofcourse give multiple commands and the program will be executed
+# Techsoc PS3 Solution
+
+Attached is my `cybersecPs.cpp` file, which is my solution to the Techsoc PS3 problem.
+The program runs smoothly and does exactly what was asked, if the input is formatted exactly as it is in the problem statement.
+
+## About my solution 
+You can feed the program multiple commands at once, and it will just execute them sequentially. 
+Just provide the input exactly as written in the original problem statement.
+
+**For the bonus questions:**
+The input format to test my bonus solutions are:
+
+*   **To find the private key exponent (D):** 
+    `(Any string doesn't matter) [FIND_D(p,q,e)]` 
+    
+*   **For RSATOY:** 
+    `(Any string doesn't matter) [RSATOY]`
+Also answer to q3 of bonus is in comments of RSATOY function please find them
+
+**NOTE**
+I have tendency to put comments for understanding so please do not mistaken it for AI generated code.

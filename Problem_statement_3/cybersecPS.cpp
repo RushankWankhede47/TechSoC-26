@@ -481,9 +481,8 @@ int main()
     // Cybersecurity part starts here for int main
     // IDK if algorithm has any encryption. I used it to reverse my string.
 
-    // std::cout << "\n--- Parsed Data --;-\n";
     // std::cout << "Message: " << inputmsg << "\n";
-    // std::cout << "Array Items:\n";
+    // std::cout << "Array Commands:\n";
     // for (size_t i = 0; i < Commands.size(); ++i)
     // {
     //     std::cout << "  [" << i << "] -> \"" << Commands[i] << "\"\n";
